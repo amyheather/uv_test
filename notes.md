@@ -28,3 +28,21 @@ Hello from uv-test!
 Whenever use uv run, it checks that everything is up-to-date: lockfile matches pyproject.toml, environment matches lockfile.
 
 Can use `uv sync` to manually update.
+
+## Add packages
+
+uv add simpy
+
+uv add pytest
+
+## Change python version
+
+nano .python-version
+
+change the version in there
+
+then run uv sync
+
+## Export to requirements.txt
+
+uv export -o requirements.txt
