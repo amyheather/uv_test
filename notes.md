@@ -45,4 +45,8 @@ then run uv sync
 
 ## Export to requirements.txt
 
-uv export -o requirements.txt
+Possible but they recommend against it... just use lock file.
+
+## Add specific package version
+
+uv add nbqa==1.9.0
