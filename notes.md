@@ -50,3 +50,9 @@ Possible but they recommend against it... just use lock file.
 ## Add specific package version
 
 uv add nbqa==1.9.0
+
+## Files
+
+pyproject.toml - simpler list, just those you said uv add, with versions, either >= or == if specified
+
+uv.lock - full details on every package in environment
